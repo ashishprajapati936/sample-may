@@ -17,7 +17,7 @@ pipeline {
         }
 		stage('Deploy') {
             steps {
-                sh "cp target/my-webapp.war ~/tomcat/webapps/ashish.war"
+                sh "cp target/boa-may.war ~/tomcat/webapps/ashish.war"
             }
         }
 
